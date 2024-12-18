@@ -1,0 +1,51 @@
+
+body{
+    background-color:thistle;
+    
+}
+
+  h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: purple;
+    text-align: center;
+}
+
+
+  input{
+
+    display: block;
+    width: 30%;
+    margin: 5px 0px;
+    height: 30px;
+    border: 1px solid purple;
+
+   
+}
+
+input[type='text']{
+  margin-left: 35%;
+}
+
+input[type='password']{
+  margin-left: 35%;
+}
+
+input[type='email']{
+  margin-left: 35%;
+}
+input[type='submit']{
+  margin-left: 35%;
+}
+
+input[type="submit"]:hover{
+    opacity:0.5;
+   
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
